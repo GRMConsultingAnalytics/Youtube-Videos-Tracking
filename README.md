@@ -57,5 +57,12 @@ This script represents a plan B and may cause the video to flicker. It is sugges
 You can find the trigger documentation following this link: https://support.google.com/tagmanager/answer/7679325?hl=en
 
 
+# How to import the GTM JSON to your Google Tag Manager container:
 
-
+1) Go to Google tag manager adming panel and choose: import
+2) Select file to import, in this case "Youtube Videos Tracking.json" from your computer.
+3) Choose the workspace (could be a new one or an already existing)
+4) Select "Merge" 
+5) Select "Rename conflicting tags, triggers, and variables"
+6) Preview and confirm your import
+7) Confirm to finalize importing procedure
