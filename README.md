@@ -9,7 +9,7 @@ More information in the following article: https://www.analyticsmania.com/post/y
 1) Custom Javascript - Is Youtube Present
 2) cHTML - Youtube Listener
 3) Custom - Youtube Interaction
-4) asyncEvent - Youtube Is Present (da sostituire)
+4) DOM - Youtube Is Present
 5) dlv - eventCategory
 6) dlv - eventAction
 7) dlv - eventLabel
@@ -26,15 +26,23 @@ So even if the video is lazily loaded, after 1 second it will be tracked.
 This code will push the "youtube" events to the dataLayer.
 
 ## 3) Custom - Youtube Interaction
-A custom event used to trigger the Google Analytics event Tag.
+Custom event used to trigger the Google Analytics event Tag.
 
-## 4) ---
+## 4) DOM - Youtube Is Present
+Trigger used to fire the GA event tag.
+The trigger type is "Page View - DOM Ready" and it fires only when the "Custom Javascript - Is Youtube Present" variable equals true
 
-## 5)6)7) dlv
-3 different dataLayer variables (dlv) used to track different events using a single Google Analytics tag.
+## 5) dlv - eventCategory
+dataLayer variable used to track the event category in "GA - Event - Youtube Interaction" tag.
+
+## 6) dlv - eventAction
+dataLayer variable used to track the event action in "GA - Event - Youtube Interaction" tag.
+
+## 7) dlv - eventLabel
+dataLayer variable used to track the event label in "GA - Event - Youtube Interaction" tag.
 
 ## 8) GA - Event - Youtube Interaction
-
+Google Analytics event tag used to track the Youtube video interaction.
 
 
 # How the final setup will work:
@@ -43,4 +51,9 @@ A custom event used to trigger the Google Analytics event Tag.
 
 
 # Please Note
-////
+This script represents a plan B and may cause the video to flicker. It is suggested to test the YouTube Video trigger first.
+You can find the trigger documentation following this link: https://support.google.com/tagmanager/answer/7679325?hl=en
+
+
+
+
