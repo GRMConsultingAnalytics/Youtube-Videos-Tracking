@@ -52,10 +52,6 @@ If a video is present the "cHTML - Youtube Listener" will fire start listening t
 into the dataLayer.
 
 
-# Please Note
-This script represents a plan B and may cause the video to flicker. It is suggested to test the YouTube Video trigger first.
-You can find the trigger documentation following this link: https://support.google.com/tagmanager/answer/7679325?hl=en
-
 
 # How to import the GTM JSON to your Google Tag Manager container:
 
@@ -66,3 +62,10 @@ You can find the trigger documentation following this link: https://support.goog
 5) Select "Rename conflicting tags, triggers, and variables"
 6) Preview and confirm your import
 7) Confirm to finalize importing procedure
+
+
+
+# Please Note
+This script represents a plan B and may cause the video to flicker. It is suggested to test the YouTube Video trigger first.
+You can find the trigger documentation following this link: https://support.google.com/tagmanager/answer/7679325?hl=en
+
