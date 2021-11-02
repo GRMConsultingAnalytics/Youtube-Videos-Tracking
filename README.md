@@ -53,7 +53,7 @@ into the dataLayer.
 
 
 
-# How to import the GTM JSON to your Google Tag Manager container:
+# How to import this configuration to your GTM container:
 
 1) Go to Google tag manager adming panel and choose: import
 2) Select file to import, in this case "Youtube Videos Tracking.json" from your computer.
