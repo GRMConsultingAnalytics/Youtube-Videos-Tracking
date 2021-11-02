@@ -17,7 +17,7 @@ More information in the following article: https://www.analyticsmania.com/post/y
 
 # How they work:
 
-## 1) Custom Javascript - Is Youtube Present
+### 1) Custom Javascript - Is Youtube Present
 A custom JS variable which return true  if there is at least one Youtube video on the page.
 
 ## 2) cHTML - Youtube Listener
