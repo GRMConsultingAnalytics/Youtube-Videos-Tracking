@@ -102,7 +102,7 @@ function onPlayerError(e)
 // report the % played if it matches 0%, 25%, 50%, 75% or completed
 function onPlayerPercent(e)
 {
-	console.log("onPlayerPercent");
+	// console.log("onPlayerPercent");
 	if (e["getPlayerState"]() == YT.PlayerState.PLAYING)
 	{
 		var t = e["getDuration"]() - e["getCurrentTime"]() <= 1.5 ? 1 : (Math.floor(e["getCurrentTime"]() / e
